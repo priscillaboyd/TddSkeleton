@@ -8,6 +8,6 @@ import static org.hamcrest.core.Is.is;
 public class ExampleTest {
 	@Test 
 	public void canAnswerTheUniversalQuestion() {
-		assertThat(new Example().answer(), is(42));
+			assertThat(new Example().answer(), is(10));
 	}
 }
